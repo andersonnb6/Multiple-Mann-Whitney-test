@@ -1,12 +1,8 @@
-# Statistic-Functions-R
-
-Neste respositório estão presentes funções em linguagem R que construí durante o Doutorado. Estas funções foram desenvolvidas em grande maioria para resolver pequenos problemas mas que também podem ajudar outras pessoas. Antes de seguirmos a uma breve explicação do que cada função é capaz de realizar, observe as sugestões dispostas neste arquivo.
-
-## Função: multiple_mann_whitney()
+# Função: multiple_mann_whitney()
 
 Essa função permite que seja calculado o teste de Mann-Whitney para cada variável disposta em linhas de uma tabela enquanto as amostras estejam nas colunas. 
 
-### Parâmetros
+## Parâmetros
 
 multiple_mann_whitney(**x, y, z, w, p**)  
 
@@ -16,7 +12,7 @@ multiple_mann_whitney(**x, y, z, w, p**)
 **w** => coluna que inicia as amostras do grupo 2  
 **p** => coluna que termina as amostras do grupo 2  
 
-### Como utilizar
+## Como utilizar
 
 Para iniciarmos o uso da função, copie todo o texto do arquivo "multiple_mann_whitney.R" e cole em seu ambiente de trabalho (RStudio por exemplo). Em seguida, execute a função para que ela seja armazenada na memória.
 
@@ -30,7 +26,7 @@ Em nosso exemplo, "dataset" será o nome da variável que conterá nosso datafra
 
 Em caso de dúvida, comparare o código acima com o tópico "Parâmetros".
 
-### Resultado
+## Resultado
 
 Será obtido como resultado um dataframe contendo inúmeras colunas. Abaixo, listarei o que cada coluna apresenta.
 
