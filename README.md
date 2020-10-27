@@ -32,4 +32,33 @@ Em caso de dúvida, comparare o código acima com o tópico "Parâmetros".
 
 ### Resultado
 
-O resultado pode ser armazenado em uma nova variável
+Será obtido como resultado um dataframe contendo inúmeras colunas. Abaixo, listarei o que cada coluna apresenta.
+
+| Coluna 	| Rótulo 	| Conteúdo 	|
+|-	|-	|-	|
+| Coluna 1 	| variable 	| lista de variáveis 	|
+| Coluna 2 	| w_value 	| valor de W 	|
+| Coluna 3 	| p_value 	| valor de P 	|
+| Coluna 4 	| p_value_corrected_FDR 	| valor de p corrigido pelo método FDR 	|
+| Coluna 5 	| p_value_corrected_Bonferroni 	| valor de p corrigido pelo método Bonferroni 	|
+| Coluna 6 	| p_value_corrected_Holm 	| valor de p corrigido pelo método Holm 	|
+| Coluna 7 	| p_value_corrected_Hommel 	| valor de p corrigido pelo método Hommel 	|
+| Coluna 8 	| p_value_corrected_Hochberg 	| valor de p corrigido pelo método Hochberg 	|
+| Coluna 9 	| group1_mean 	| média do grupo 1 	|
+| Coluna 10 	| group1_sd 	| desvio-padrão do grupo 1 	|
+| Coluna 11 	| group1_median 	| madiana do grupo 1 	|
+| Coluna 12 	| group1_IQR 	| Amplitude interquartil do grupo 1 	|
+| Coluna 13 	| group1_1st_quantile 	| Primeiro Quartil do grupo 1 	|
+| Coluna 14 	| group1_3st_quantile 	| Terceiro Quartil do grupo 1 	|
+| Coluna 15 	| group1_max_value 	| Maior valor do grupo 1 	|
+| Coluna 16 	| group1_min_value 	| Menor do grupo 1 	|
+| Coluna 17 	| group2_mean 	| média do grupo 2 	|
+| Coluna 18 	| group2_sd 	| desvio-padrão do grupo 2 	|
+| Coluna 19 	| group2_median 	| madiana do grupo 2 	|
+| Coluna 20 	| group2_IQR 	| Amplitude interquartil do grupo 2 	|
+| Coluna 21 	| group2_1st_quantile 	| Primeiro Quartil do grupo 2 	|
+| Coluna 22 	| group2_3st_quantile 	| Terceiro Quartil do grupo 2 	|
+| Coluna 23 	| group2_max_value 	| Maior valor do grupo 2 	|
+| Coluna 24 	| group2_min_value 	| Menor do grupo 2 	|
+| Coluna 25 	| group_higt_mean 	| Grupo com maior média 	|
+| Coluna 26 	| group_higt_median 	| Grupo com menor média 	|
