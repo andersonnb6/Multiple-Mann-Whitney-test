@@ -12,3 +12,4 @@ Neste respositório estão presentes funções em linguagem R que construí dura
 
 Essa função permite que seja calculado o teste de Mann-Whitney para cada variável disposta em linhas de uma tabela enquanto as amostras estejam nas colunas.
 
+![img1](https://user-images.githubusercontent.com/32198100/97354724-9af5b900-1874-11eb-85aa-5e2b44c088b0.png)
