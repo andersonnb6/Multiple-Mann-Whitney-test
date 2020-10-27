@@ -59,6 +59,6 @@ Será obtido como resultado um dataframe contendo inúmeras colunas. Abaixo, lis
 | Coluna 21 	| group2_1st_quantile 	| Primeiro Quartil do grupo 2 	|
 | Coluna 22 	| group2_3st_quantile 	| Terceiro Quartil do grupo 2 	|
 | Coluna 23 	| group2_max_value 	| Maior valor do grupo 2 	|
-| Coluna 24 	| group2_min_value 	| Menor do grupo 2 	|
+| Coluna 24 	| group2_min_value 	| Menor valor do grupo 2 	|
 | Coluna 25 	| group_higt_mean 	| Grupo com maior média 	|
 | Coluna 26 	| group_higt_median 	| Grupo com menor média 	|
