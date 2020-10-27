@@ -4,7 +4,6 @@ mann_whitney_analysis <- function(x,y,z,w,p) {
   
   # y: coluna que inicia as amostras do grupo 1
   # z: coluna que termina as amostras do grupo 1
-  
   # w: coluna que inicia as amostras do grupo 2
   # p: coluna que termina as amostras do grupo 2
   
@@ -97,7 +96,6 @@ mann_whitney_analysis <- function(x,y,z,w,p) {
       group_higt_median[i] <- "group2"
     }
 
-
     # Valores max e min de cada grupos
     group1_max_value[i] <- max(group1)
     group1_min_value[i] <- min(group1)
@@ -147,21 +145,3 @@ mann_whitney_analysis <- function(x,y,z,w,p) {
                              group2_min_value, group_higt_mean, group_higt_median)
   return(result_table)
 }
-
-library(readxl)
-tabela <- read_excel("input.xlsx")
-resultado <- mann_whitney_analysis(tabela,2,6,7,11)
-write.table(resultado, file = "output.txt", sep = "\t", row.names = FALSE)
-
-
-
-
-
-
-
-
-
-
-
-
-
