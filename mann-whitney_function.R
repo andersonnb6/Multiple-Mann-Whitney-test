@@ -1,7 +1,6 @@
 mann_whitney_analysis <- function(x,y,z,w,p) {
   
   # x: dataframe
-  
   # y: coluna que inicia as amostras do grupo 1
   # z: coluna que termina as amostras do grupo 1
   # w: coluna que inicia as amostras do grupo 2
@@ -41,7 +40,6 @@ mann_whitney_analysis <- function(x,y,z,w,p) {
   group1_min_value <- c()
   group_higt_mean <- c()
   group_higt_median <- c()
-
   
   # Loop executado para cada linha do dataset
   for (i in 1:nrow(dataset)) {
