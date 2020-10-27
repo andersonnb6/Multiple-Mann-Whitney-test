@@ -12,9 +12,22 @@ Neste respositório estão presentes funções em linguagem R que construí dura
 
 Essa função permite que seja calculado o teste de Mann-Whitney para cada variável disposta em linhas de uma tabela enquanto as amostras estejam nas colunas. 
 
+### Parâmetros
+
+multiple_mann_whitney(**x, y, z, w, p**)  
+
+**x** => dataframe  
+**y** => coluna que inicia as amostras do grupo 1  
+**z** => coluna que termina as amostras do grupo 1  
+**w** => coluna que inicia as amostras do grupo 2  
+**p** => coluna que termina as amostras do grupo 2  
+
+### Como utilizar
+
 Para iniciarmos o uso da função, copie todo o texto do arquivo "multiple_mann_whitney.R" e cole em seu ambiente de trabalho (RStudio por exemplo). Em seguida, execute a função para que ela seja armazenada na memória.
 
 Organize seu dataframe como mostra a imagem abaixo. Na primeira coluna coloque as variáveis e nas demais coloque as amostras. Primeiro insira todas amostras de um mesmo grupo e depois insira as de outro grupo. Assim, será garantido que amostras de um mesmo grupo fiquem próximas. Isso será muito importante.
 
 ![img1](https://user-images.githubusercontent.com/32198100/97354724-9af5b900-1874-11eb-85aa-5e2b44c088b0.png)
 
+Em nosso exemplo, "dataset" será o nome da variável que conterá nosso dataframe. Estando o dataframe organizado, basta chamar a função multiple_mann_whitney().
