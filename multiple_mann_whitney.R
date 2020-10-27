@@ -1,4 +1,4 @@
-mann_whitney_analysis <- function(x,y,z,w,p) {
+multiple_mann_whitney <- function(x,y,z,w,p) {
   
   # x: dataframe
   # y: coluna que inicia as amostras do grupo 1
