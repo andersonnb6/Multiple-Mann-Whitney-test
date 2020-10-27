@@ -1,10 +1,8 @@
 mann_whitney_analysis <- function(x,y,z,w,p) {
   
   # x: dataframe
-  
   # y: coluna que inicia as amostras do grupo 1
   # z: coluna que termina as amostras do grupo 1
-  
   # w: coluna que inicia as amostras do grupo 2
   # p: coluna que termina as amostras do grupo 2
   
@@ -96,7 +94,6 @@ mann_whitney_analysis <- function(x,y,z,w,p) {
     if (group2_median[i] > group1_median[i]){
       group_higt_median[i] <- "group2"
     }
-
 
     # Valores max e min de cada grupos
     group1_max_value[i] <- max(group1)
