@@ -24,4 +24,6 @@ Organize seu dataframe como mostra a imagem abaixo. Na primeira coluna coloque a
 
 ![img1](https://user-images.githubusercontent.com/32198100/97354724-9af5b900-1874-11eb-85aa-5e2b44c088b0.png)
 
-Em nosso exemplo, "dataset" será o nome da variável que conterá nosso dataframe. Estando o dataframe organizado, basta chamar a função multiple_mann_whitney().
+Em nosso exemplo, "dataset" será o nome da variável que conterá nosso dataframe criado acima. Estando o dataframe organizado, basta chamar a função multiple_mann_whitney() com os parâmetros devidamente preenchidos. Em nosso exemplo, o comando ficaria como descrito abaixo:
+
+`multiple_mann_whitney(dataset,2,6,7,11)`
