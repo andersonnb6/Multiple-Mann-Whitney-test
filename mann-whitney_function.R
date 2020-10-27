@@ -114,7 +114,6 @@ mann_whitney_analysis <- function(x,y,z,w,p) {
     
   } # fim do loop
   
-  
   # Corrigindo p-value (Benjamini & Hochberg)
   p_value_corrected_FDR <- p.adjust(p_value, method = "fdr")
   
