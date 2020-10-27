@@ -1,6 +1,6 @@
 # multiple_mann_whitney()
 
-Essa função permite que seja calculado o teste de Mann-Whitney para cada variável disposta em linhas de uma tabela enquanto as amostras estejam nas colunas. 
+Essa função permite que seja calculado o teste de Mann-Whitney para cada variável disposta em linhas de uma tabela enquanto as amostras se apresentam em colunas.
 
 ## Parâmetros
 
