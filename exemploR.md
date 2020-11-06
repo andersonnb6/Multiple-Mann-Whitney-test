@@ -11,6 +11,6 @@ boxplot(var1,var2)
 
 
     
-![png](output_1_0.png)
+![png](output_1_0.png){width=50%}
     
 
